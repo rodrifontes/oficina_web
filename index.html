@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      /*background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
+      background-size: cover;*/
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin-left: 32px;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 32px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      margin: 50px 0;
+    }
+
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    section ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    section li {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+
+    section li h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#sobre-mim">Sobre Mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mim">
+      <h2>Sobre Mim</h2>
+      <p>Algumas informações sobre mim e minhas habilidades</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <ul>
+        <li>
+          <h3>Projeto 1</h3>
+          <p>Descrição do projeto 1.</p>
+        </li>
+        <li>
+          <h3>Projeto 2</h3>
+          <p>Descrição do projeto 2.</p>
+        </li>
+        <li>
+          <h3>Projeto 3</h3>
+          <p>Descrição do projeto 3.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br />
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email">
+        <br />
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Meu Portfólio</p>
+  </footer>
+</body>
+
+</html>
